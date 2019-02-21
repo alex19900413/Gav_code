@@ -1,0 +1,40 @@
+﻿  command.c
+  main_ctrl.c
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(111): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(113): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(115): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(117): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(119): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(121): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(123): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(199): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(201): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(203): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(205): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(207): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(209): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(211): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(288): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(290): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(292): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(294): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(296): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(298): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(300): warning C4305: “函数”: 从“double”到“float”截断
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(474): warning C4013: “system”未定义；假设外部返回 int
+  motion.c
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(108): warning C4101: “V”: 未引用的局部变量
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(109): warning C4101: “v”: 未引用的局部变量
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(184): warning C4029: 声明的形参表不同于定义
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(220): warning C4029: 声明的形参表不同于定义
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(346): warning C4013: “system”未定义；假设外部返回 int
+  track.c
+  vmarith.c
+  正在生成代码...
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(227): warning C4716: “Wwheel2PLS”: 必须返回一个值
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(241): warning C4716: “Optc2Wwheel”: 必须返回一个值
+d:\van\origincode\gav_code\gavcode\gavcode\motion.c(250): warning C4716: “Hall2Wwheel”: 必须返回一个值
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(323): warning C4715: “tofuzzyTrigle”: 不是所有的控件路径都返回值
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(351): warning C4715: “tofuzzyLadderL”: 不是所有的控件路径都返回值
+d:\van\origincode\gav_code\gavcode\gavcode\main_ctrl.c(376): warning C4715: “tofuzzyLadderR”: 不是所有的控件路径都返回值
+  Gavcode.vcxproj -> D:\van\OriginCode\Gav_code\Gavcode\Debug\Gavcode.exe

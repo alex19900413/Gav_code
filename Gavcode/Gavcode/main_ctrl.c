@@ -13,11 +13,12 @@
 #define PS 4
 #define PM 5
 #define PB 6
-/*---------------------------------------------------------*/
+
+/*---------------------------------------------------------
 float fuzzyKp(float e, float ec);
 float fuzzyKi(float e, float ec);
 float fuzzyKd(float e, float ec);
-/*---------------------------------------------------------*/
+/*---------------------------------------------------------
 float tofuzzyTrigle(float x, float a, float b, float c);
 float refuzzyTrigle(float x, float a, float b, float c);
 float tofuzzyLadderL(float x, float a, float b);
@@ -26,37 +27,12 @@ float tofuzzyLadderR(float x, float a, float b);
 float refuzzyLadderR(float x, float a, float b);
 float smallerAB(float a, float b);
 float largerAB(float a, float b);
-/*---------------------------------------------------------*/
+/*---------------------------------------------------------
 float positionPID(PosPID *PID);
 float incrementPID(IncrePID *PID);
 float outLimit(float input, float upper, float floor);
 /*----------------------------------------------------------*/
 
-
-
-/*--------------------------------------------------------------------------------*/
-void testFunc1()
-{
-	float a, b, Kp, Ki, Kd;
-	printf("The E is:");
-	scanf_s("%f", &a);
-	printf("The Ec is:");
-	scanf_s("%f", &b);
-	Kp = fuzzyKp(a, b);
-	printf("The parameter Kp is: %f\n\n", Kp);
-	Ki = fuzzyKi(a, b);
-	printf("The parameter Ki is: %f\n\n", Ki);
-	Kd = fuzzyKd(a, b);
-	printf("The parameter Kd is: %f\n\n", Kd);
-	system("pause");
-}
-/*
-void main()
-{
-	testFunc1();
-}
-*/
-/*--------------------------------------------------------------------------------*/
 
 
 /*----------------------------------第一层调用------------------------------------*/
@@ -477,3 +453,29 @@ float outLimit(float input, float upper, float floor)
 	else					output = input;
 	return output;
 }
+
+//---------------------------------------------END------------------------------------------------
+
+
+
+void testFunc1()
+{
+	float a, b, Kp, Ki, Kd;
+	printf("The E is:");
+	scanf_s("%f", &a);
+	printf("The Ec is:");
+	scanf_s("%f", &b);
+	Kp = fuzzyKp(a, b);
+	printf("The parameter Kp is: %f\n\n", Kp);
+	Ki = fuzzyKi(a, b);
+	printf("The parameter Ki is: %f\n\n", Ki);
+	Kd = fuzzyKd(a, b);
+	printf("The parameter Kd is: %f\n\n", Kd);
+	system("pause");
+}
+/*
+void main()
+{
+	testFunc1();
+}
+*/

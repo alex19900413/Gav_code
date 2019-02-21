@@ -36,4 +36,5 @@ extern matp V_car2W_wheel(double agv_r, double agv_w, double agv_l,
 extern matp W_wheel2V_car(double agv_r, double agv_w, double agv_l,
 	double T[4][4]);
 extern matp CoordConv(double RX, double XP, double YP, double T[4][4]);
+extern matp CoordConv2(double RX, double XP, double YP, double T[4][4]);
 #endif

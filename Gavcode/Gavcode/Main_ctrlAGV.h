@@ -32,11 +32,20 @@ typedef struct INCRE_PID
 }IncrePID;
 
 
-//motion.c********************************************************************************
+/*---------------------------------------------------------*/
+extern float fuzzyKp(float e, float ec);
+extern float fuzzyKi(float e, float ec);
+extern float fuzzyKd(float e, float ec);
+extern float tofuzzyTrigle(float x, float a, float b, float c);
+extern float refuzzyTrigle(float x, float a, float b, float c);
+extern float tofuzzyLadderL(float x, float a, float b);
+extern float refuzzyLadderL(float x, float a, float b);
+extern float tofuzzyLadderR(float x, float a, float b);
+extern float refuzzyLadderR(float x, float a, float b);
+extern float smallerAB(float a, float b);
+extern float largerAB(float a, float b);
+extern float positionPID(PosPID *PID);
+extern float incrementPID(IncrePID *PID);
+extern float outLimit(float input, float upper, float floor);
 
-
-//----------------------------------------------------------------------------------------
-
-//track.c ********************************************************************************
-//----------------------------------------------------------------------------------------
 #endif

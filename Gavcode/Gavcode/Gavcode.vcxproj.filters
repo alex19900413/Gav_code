@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MotionAGV.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="vmarith.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -28,6 +25,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Main_ctrlAGV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionAGV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionDataType.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

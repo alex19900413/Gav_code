@@ -20,8 +20,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommandAGV.h" />
-    <ClInclude Include="MotionAGV.h" />
     <ClInclude Include="Main_ctrlAGV.h" />
+    <ClInclude Include="MotionAGV.h" />
+    <ClInclude Include="MotionDataType.h" />
     <ClInclude Include="TrackAGV.h" />
     <ClInclude Include="vmarith.h" />
   </ItemGroup>
